@@ -1,0 +1,13 @@
+package level2;
+import java.util.Scanner;
+
+public class SquareSide {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the perimeter of the square: ");
+        float perimeter = input.nextFloat();
+        float side = perimeter / 4;
+        System.out.println("The length of the side is " + side + " cm whose peimeter is " + perimeter + " cm");
+        input.close();
+    }
+}
